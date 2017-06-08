@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display');
+
+* { margin:0; padding:0; }
+
+*, *:after, *:before {
+   -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+
+
+html,
+body {
+    height: 100%;
+}
+body {
+  margin:0;
+  font-family: 'Tinos', serif;
+}
+
+.container {
+  position: fixed;
+  z-index: 10;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.content, .menu{
+  bottom: 0;
+  font-size:4em;
+  color:#dbdbdb;
+  padding:1.8em;
+  display: inline-block;
+  width: 100%;
+}
+.content h1 {
+  font-size: 1em;
+  margin: 10px;
+  font-family: 'Playfair Display', serif;
+
+}
+.content p {
+  font-size: .35em;
+  margin: 0 auto 0 1em;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 45px;
+}
+
+.footer-container {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+.menu {
+  height: 75px;
+  width: 75px;
+  float:right;
+  padding: 5px;
+  bottom:0;
+  cursor: pointer;
+}
+.subtitles {
+  width: 100%;
+  display: flex;
+}
+
+.intro__image {
+  min-width: 100%;
+  min-height: 120%;
+  width: auto;
+  height: auto;
+  opacity: 0.9;
+}
+
+svg {
+  display:block;
+}
+
+.icon-grid rect {
+  fill: none;
+  stroke: #dbdbdb;
+  stroke-width: 2px;
+}
