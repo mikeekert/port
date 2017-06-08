@@ -7,22 +7,15 @@ body {
 
 .container {
   height:100vh;
-
   background-image: url('../images/background-min.jpg');
-  /*width:1200px;
-  height: 1500px;*/
   background-size: cover;
   opacity: 0.9;
 }
-
 .content {
-  position: absolute;
   bottom: 0;
-  width: 500px;
-  /*background-color: blue;*/
   font-size:4em;
   color:#dbdbdb;
-  padding: 10px 10px 30px 30px;
+  padding:1.8em;
 }
 .content h1 {
   font-size: 1em;
@@ -30,9 +23,16 @@ body {
   font-family: 'Playfair Display', serif;
 
 }
-
 .content p {
   font-size: .35em;
   margin: 10px;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer-container {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  height: 500px;
+  display: inline-block;
 }
